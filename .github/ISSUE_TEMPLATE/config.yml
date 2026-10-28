@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Frequently asked questions
+    url: https://agoober.github.io/hourloom-support/
+    about: Answers to common questions about reminders, sync, backups and Pro.
+  - name: Privacy policy
+    url: https://agoober.github.io/hourloom-support/privacy.html
+    about: How Hourloom handles your data (it doesn't collect any).

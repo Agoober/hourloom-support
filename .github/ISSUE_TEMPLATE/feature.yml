@@ -1,0 +1,12 @@
+name: Suggest a feature
+description: Share an idea to make Hourloom better.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Hourloom to do, and what problem would it solve for you?
+    validations:
+      required: true

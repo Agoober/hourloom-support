@@ -1,0 +1,46 @@
+name: Get help
+description: Ask a question or report a problem with Hourloom.
+title: "[Help] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! **This request is public** — please don't include personal information such as your pay stubs, employer names or screenshots showing your earnings.
+        Check the [FAQ](https://agoober.github.io/hourloom-support/) first; your answer may already be there.
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Describe the question or problem. For a problem, include what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (for problems)
+      placeholder: |
+        1. Open the Day tab
+        2. Tap …
+  - type: input
+    id: app-version
+    attributes:
+      label: Hourloom version
+      description: Setup › About › Version
+      placeholder: "1.0 (1)"
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - iPad
+        - Apple Watch
+        - Mac
+        - More than one
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS / iPadOS version
+      description: iPhone Settings › General › About
+      placeholder: "26.0"
