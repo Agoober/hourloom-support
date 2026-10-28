@@ -1,6 +1,6 @@
 # Hourloom Support
 
-Support and privacy pages for **Hourloom**, the time and pay ledger for iPhone, iPad, Apple Watch and Mac. English only (US App Store).
+Support and privacy pages for **Hourloom**, the time and pay ledger for iPhone, iPad and Apple Watch. English only (US App Store).
 
 | File | Page |
 | --- | --- |
